@@ -45,5 +45,9 @@ export default function Intro() {
         </section>
         
     );
+
+    function app(){
+        console.log("HI")
+    }
     
 }
