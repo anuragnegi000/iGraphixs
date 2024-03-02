@@ -1,11 +1,12 @@
 "use client"
 import { motion } from 'framer-motion';
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 export default function Intro() {
     return (
-        <section>
+        <section className='mb-28 max--w-[50rem] text-center sm:mb-0'>
             <div className="flex items-center justify-center">
                 <div className='relative'>
                     <motion.div
@@ -30,13 +31,17 @@ export default function Intro() {
                     </motion.div>
                 </div>
             </div>
-            <p className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'>
+            <motion.p className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
+            initial={{opacity:0,y:100}}
+            animate={{opacity:1,y:0}}
+            >
                 <span className="font-bold">iGraphixs is a leading company specializing in graphic design </span>{" "}
                 <span className="font-bold">visual effects (VFX), and marketing solutions.</span> with{" "}
                 <span className="font-bold">X years</span> of experience Our comprehensive marketing services ensure
                 building <span className="italic">strategic promotion</span>. and effective outreach 
                 <span className="italic"> driving growth and success for our clients.</span>.
-            </p>
+            </motion.p>
+            
         </section>
     );
 }
