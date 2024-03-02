@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
 import { BsArrowRight, BsDiscord, BsLinkedin } from "react-icons/bs"
+import SocialMedia from './contact/social-media';
 
 export default function Intro() {
     return (
@@ -43,30 +44,28 @@ export default function Intro() {
                 <span className="italic"> driving growth and success for our clients.</span>.
             </motion.p>
 
-            <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
+            <motion.div className='flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row'
                 initial={{ opacity: 0, y: 100 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{
                     type: "spring",
                     duration: 1,
-                    stiffness: 125, 
+                    stiffness: 125,
                     delay: 0.5
                 }}
             >
-                <Link href="#contact" className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:bg-gray-950 active:scale-105 transition'>Contact us here
-                    <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
+                <Link href="#contact" className='flex items-center gap-2 py-3 text-white transition bg-gray-900 rounded-full outline-none px-7 focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105'>Contact us here
+                    <BsArrowRight />
                 </Link>
 
-                <Link href="#about" className='group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:bg-white active:scale-105 transition cursor-pointer'>Who we are?
-                    <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition'/>
+                <Link href="#about" className='flex items-center gap-2 py-3 text-black transition bg-white rounded-full outline-none px-7 focus:scale-110 hover:scale-110 hover:bg-white active:scale-105'>Who we are?
+                    <BsArrowRight />
                 </Link>
-
-                <a href="" className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10'>
+                <a href="" className='flex items-center gap-2 p-4 text-gray-700 transition bg-white rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-white active:scale-105'>
                     <BsLinkedin />
                 </a>
-
-                <a href="https://discord.gg/EyBCWSH8" className='group bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.20rem] rounded-full  focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10'>
-                    <BsDiscord/>
+                <a href="https://discord.gg/EyBCWSH8" className='bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.20rem] rounded-full outline-none focus:scale-110 hover:scale-110  hover:bg-white active:scale-105 transition'>
+                    <BsDiscord />
                 </a>
             </motion.div>
 
