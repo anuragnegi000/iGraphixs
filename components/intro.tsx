@@ -49,22 +49,24 @@ export default function Intro() {
                 transition={{
                     type: "spring",
                     duration: 1,
-                    stiffness: 125,
+                    stiffness: 125, 
                     delay: 0.5
                 }}
             >
-                <Link href="#contact" className='bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:bg-gray-950 active:scale-105 transition'>Contact us here
-                    <BsArrowRight />
+                <Link href="#contact" className='group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:bg-gray-950 active:scale-105 transition'>Contact us here
+                    <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition' />
                 </Link>
 
-                <Link href="#about" className='bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:bg-white active:scale-105 transition'>Who we are?
-                    <BsArrowRight />
+                <Link href="#about" className='group bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:bg-white active:scale-105 transition cursor-pointer'>Who we are?
+                    <BsArrowRight className='opacity-70 group-hover:translate-x-1 transition'/>
                 </Link>
-                <a href="" className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:bg-white active:scale-105 transition'>
+
+                <a href="" className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10'>
                     <BsLinkedin />
                 </a>
-                <a href="https://discord.gg/EyBCWSH8" className='bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.20rem] rounded-full outline-none focus:scale-110 hover:scale-110  hover:bg-white active:scale-105 transition'>
-                    <BsDiscord />
+
+                <a href="https://discord.gg/EyBCWSH8" className='group bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.20rem] rounded-full  focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10'>
+                    <BsDiscord/>
                 </a>
             </motion.div>
 
