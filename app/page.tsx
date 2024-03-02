@@ -17,7 +17,6 @@ export default function Home() {
       
       <SectionDivider/>
       <About/>
-      <Boddy/>
     
     </main>
   )
