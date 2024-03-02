@@ -1,6 +1,6 @@
 import Header from '@/components/header'
 import './globals.css'
-import {Raleway} from '@next/font/google'
+import {Raleway} from "next/font/google"
 
 const raleway = Raleway({ subsets: ['latin'] })
 
