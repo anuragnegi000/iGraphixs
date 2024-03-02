@@ -18,7 +18,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en"  className="dark">
+    <html lang="en"  className="dark"  >
+      <time dateTime="2016-10-25" suppressHydrationWarning />
       <body className={`${raleway.className} bg-black-950 text-gray-950 relative h-[5000px]`}>
       
        <Providers>

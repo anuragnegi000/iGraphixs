@@ -5,33 +5,15 @@ import { links } from '../lib/data';
 // import { link } from 'fs';
 import Link from 'next/link';
 import { Image } from '@nextui-org/react';
+import { NavbarDemo } from './Navbar';
 
 
 const Header = () => {
     return (
         
-        <header className='z-[999] relative'>
-             <motion.div
-                        initial={{ opacity: 0, scale: 0 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{
-                            type: "spring",
-                            duration: 1,
-                            stiffness: 125,
-                            delay: 0.5
-                        }}
-                    >
-                        <Image
-                            src="/iGraphixs_full.png"
-                            alt="iGraphixs"
-                            width={192}
-                            height={192}
-                            quality={95}
-                            priority={true}
-                            className='h-50 rounded-full object-cover border-[0.35rem]shadow-xl'
-                        />
-                    </motion.div>
-            <motion.div className='fixed top-0 left-1/2 -translate-x-1/2 h-[4.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full'
+        <header className='   z-[999] relative'>
+            
+            {/* <motion.div className='fixed top-0 left-1/2 -translate-x-1/2 h-[4.5rem] w-full rounded-none border border-white border-opacity-40 bg-white bg-opacity-80 shadow-lg shadow-black/[0.03] backdrop-blur-[0.5rem] sm:top-6 sm:h-[3.25rem] sm:w-[36rem] sm:rounded-full'
                 initial={{ y: -100, x: "-50%", opacity: 1 }}
                 animate={{ y: 0, x: "-50%", opacity: 1 }}
             >
@@ -48,7 +30,11 @@ const Header = () => {
                         </motion.li>
                     ))}
                 </ul>
-            </nav>
+            </nav> */}
+
+
+
+<NavbarDemo/>
         </header>
     )
 }
