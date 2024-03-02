@@ -33,16 +33,7 @@ export default function Intro() {
                     </motion.div>
                 </div>
             </div>
-            <motion.p className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
-                initial={{ opacity: 0, y: 100 }}
-                animate={{ opacity: 1, y: 0 }}
-            >
-                <span className="font-bold">iGraphixs is a leading company specializing in graphic design </span>{" "}
-                <span className="font-bold">visual effects (VFX), and marketing solutions.</span> with{" "}
-                <span className="font-bold">X years</span> of experience Our comprehensive marketing services ensure
-                building <span className="italic">strategic promotion</span>. and effective outreach
-                <span className="italic"> driving growth and success for our clients.</span>.
-            </motion.p>
+           
 
             <motion.div className='flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row'
                 initial={{ opacity: 0, y: 100 }}
