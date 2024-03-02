@@ -69,6 +69,12 @@ export default function Intro() {
                 </a>
             </motion.div>
 
+            
+
         </section>
+        
     );
+    function checker(){
+        console.log("Check");
+    }
 }
