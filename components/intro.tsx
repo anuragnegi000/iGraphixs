@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import React from 'react';
+import { BsArrowRight, BsDiscord, BsLinkedin } from "react-icons/bs"
 
 export default function Intro() {
     return (
@@ -32,16 +33,41 @@ export default function Intro() {
                 </div>
             </div>
             <motion.p className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
-            initial={{opacity:0,y:100}}
-            animate={{opacity:1,y:0}}
+                initial={{ opacity: 0, y: 100 }}
+                animate={{ opacity: 1, y: 0 }}
             >
                 <span className="font-bold">iGraphixs is a leading company specializing in graphic design </span>{" "}
                 <span className="font-bold">visual effects (VFX), and marketing solutions.</span> with{" "}
                 <span className="font-bold">X years</span> of experience Our comprehensive marketing services ensure
-                building <span className="italic">strategic promotion</span>. and effective outreach 
+                building <span className="italic">strategic promotion</span>. and effective outreach
                 <span className="italic"> driving growth and success for our clients.</span>.
             </motion.p>
-            
+
+            <motion.div className='flex flex-col sm:flex-row items-center justify-center gap-2 px-4 text-lg font-medium'
+                initial={{ opacity: 0, y: 100 }}
+                animate={{ opacity: 1, y: 0 }}
+                transition={{
+                    type: "spring",
+                    duration: 1,
+                    stiffness: 125,
+                    delay: 0.5
+                }}
+            >
+                <Link href="#contact" className='bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:bg-gray-950 active:scale-105 transition'>Contact us here
+                    <BsArrowRight />
+                </Link>
+
+                <Link href="#about" className='bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:bg-white active:scale-105 transition'>Who we are?
+                    <BsArrowRight />
+                </Link>
+                <a href="" className='bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110  hover:bg-white active:scale-105 transition'>
+                    <BsLinkedin />
+                </a>
+                <a href="https://discord.gg/EyBCWSH8" className='bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.20rem] rounded-full outline-none focus:scale-110 hover:scale-110  hover:bg-white active:scale-105 transition'>
+                    <BsDiscord />
+                </a>
+            </motion.div>
+
         </section>
     );
 }
