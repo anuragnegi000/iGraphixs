@@ -8,8 +8,10 @@ import SectionDivider from '@/components/section-divider'
 
 
 import Image from 'next/image'
+import { TextGenerateEffect } from '@/components/ui/text-generate-effect'
 
 import Group from '@/components/group'
+
 
 export default function Home() {
   return (
@@ -21,6 +23,7 @@ export default function Home() {
       <SectionDivider />
       <About />
       <Group />
+     
 
 
     </main>
