@@ -5,6 +5,7 @@ import Link from 'next/link';
 import React from 'react';
 import { BsArrowRight, BsDiscord, BsLinkedin } from "react-icons/bs"
 import SocialMedia from './contact/social-media';
+import { TextGenerateEffectDemo } from './MovingText';
 
 export default function Intro() {
     return (
@@ -33,6 +34,7 @@ export default function Intro() {
                     </motion.div>
                 </div>
             </div>
+            <TextGenerateEffectDemo/>
            
 
             <motion.div className='flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row'

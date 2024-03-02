@@ -12,10 +12,10 @@ import { TextGenerateEffect } from '@/components/ui/text-generate-effect'
 
 import Group from '@/components/group'
 
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between min-h-screen p-24">
-<<<<<<< HEAD
 
 
       <Intro />
@@ -23,18 +23,9 @@ export default function Home() {
       <SectionDivider />
       <About />
       <Group />
-
-
-=======
      
-      <Intro/>
-      
-      <SectionDivider/>
-      <About/>
-      <Boddy/>
-      <TextGenerateEffect words={''}/>
-    
->>>>>>> e0c14d7 (anothe ui)
+
+
     </main>
   )
 }
