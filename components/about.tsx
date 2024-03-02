@@ -18,7 +18,7 @@ export default function About() {
       id="about"
     >
       {/* <SectionHeading>About me</SectionHeading> */}
-      <h1>About Us </h1>
+      <h1 className="text-3xl ">About Us </h1>
       <p className="mb-3">
       We are a team of passionate individuals who are
        dedicated to providing the best possible service to
