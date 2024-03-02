@@ -9,15 +9,20 @@ import SectionDivider from '@/components/section-divider'
 
 import Image from 'next/image'
 
+import Group from '@/components/group'
+
 export default function Home() {
   return (
     <main className="flex flex-col items-center justify-between min-h-screen p-24">
-     
-      <Intro/>
-      
-      <SectionDivider/>
-      <About/>
-    
+
+
+      <Intro />
+
+      <SectionDivider />
+      <About />
+      <Group />
+
+
     </main>
   )
 }
