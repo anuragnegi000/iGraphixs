@@ -1,11 +1,8 @@
 import Header from '@/components/header'
 import './globals.css'
-<<<<<<< HEAD
 import {Raleway} from "next/font/google"
-=======
 import {Raleway} from '@next/font/google'
 import { Providers } from './providers';
->>>>>>> 12178e1 (nextui)
 
 const raleway = Raleway({ subsets: ['latin'] })
 
