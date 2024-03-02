@@ -47,7 +47,7 @@ export default function Intro() {
     );
 
     function app(){
-        console.log("HI")
+        console.log("HI..")
     }
     
 }
