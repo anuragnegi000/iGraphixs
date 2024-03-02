@@ -1,5 +1,6 @@
 "use client"
 
+import Boddy from '@/components/FruitsCard'
 import About from '../components/about'
 import Header from '@/components/header'
 import Intro from '@/components/intro'
@@ -16,6 +17,7 @@ export default function Home() {
       
       <SectionDivider/>
       <About/>
+      <Boddy/>
     
     </main>
   )

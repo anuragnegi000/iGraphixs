@@ -74,7 +74,5 @@ export default function Intro() {
         </section>
         
     );
-    function checker(){
-        console.log("Check");
-    }
+    
 }
