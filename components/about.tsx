@@ -3,6 +3,7 @@
 import React from "react";
 // import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
+import SectionHeading from "./section-heading";
 // import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
@@ -17,8 +18,8 @@ export default function About() {
       transition={{ delay: 0.175 }}
       id="about"
     >
-      {/* <SectionHeading>About me</SectionHeading> */}
-      <h1 className="text-3xl ">About Us </h1>
+      <SectionHeading>About me</SectionHeading>
+    
       <p className="mb-3">
       We are a team of passionate individuals who are
        dedicated to providing the best possible service to
