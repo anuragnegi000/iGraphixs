@@ -18,6 +18,8 @@ import { SVGMaskEffectDemo } from '@/components/experiment/SvgMask'
 import { WavyBackgroundDemo } from '@/components/experiment/WaveyBgm'
 import { HeroScrollDemo } from '@/components/experiment/ContainerScroll'
 import {BentoGridThirdDemo} from '@/components/bentoGrid'
+import { TypewriterEffectSmoothDemo } from '@/components/HeroText'
+import { ThreeDCardDemo } from '@/components/3d-card'
 
 
 export default function Home() {
@@ -26,9 +28,9 @@ export default function Home() {
 
 
       {/* <Intro /> */}
-      <WavyBackgroundDemo/>
-
-      {/* <SectionDivider /> */}
+      {/* <WavyBackgroundDemo/> */}
+      <ThreeDCardDemo/>
+      <TypewriterEffectSmoothDemo/>
       <HeroScrollDemo/>
 
       

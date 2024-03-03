@@ -11,14 +11,14 @@ import  Calsans  from "@/app/fonts/styles.module.css";
 export function TracingBeamDemo() {
   return (
     <TracingBeam className="px-6">
-      <div className="relative max-w-2xl pt-4 mx-auto antialiased">
+      <div className=" texxt-white relative max-w-2xl pt-4 mx-auto antialiased">
         {dummyContent.map((item, index) => (
           <div key={`content-${index}`} className="mb-10">
             <h2 className="px-4 py-1 mb-4 text-sm text-white bg-black rounded-full w-fit">
               {item.badge}
             </h2>
 
-            <p className={twMerge(Calsans.classname, "text-xl mb-4")}>
+            <p className={twMerge(Calsans.classname, "text-white text-xl mb-4")}>
               {item.title}
             </p>
 
@@ -46,7 +46,7 @@ const dummyContent = [
     title: "Lorem Ipsum Dolor Sit Amet",
     description: (
       <>
-        <p>
+        <p className="text-white">
           Sit duis est minim proident non nisi velit non consectetur. Esse
           adipisicing laboris consectetur enim ipsum reprehenderit eu deserunt
           Lorem ut aliqua anim do. Duis cupidatat qui irure cupidatat incididunt
@@ -57,12 +57,12 @@ const dummyContent = [
           officia sint labore. Tempor consectetur excepteur ut fugiat veniam
           commodo et labore dolore commodo pariatur.
         </p>
-        <p>
+        <p className="text-white">
           Dolor minim irure ut Lorem proident. Ipsum do pariatur est ad ad
           veniam in commodo id reprehenderit adipisicing. Proident duis
           exercitation ad quis ex cupidatat cupidatat occaecat adipisicing.
         </p>
-        <p>
+        <p className="text-white">
           Tempor quis dolor veniam quis dolor. Sit reprehenderit eiusmod
           reprehenderit deserunt amet laborum consequat adipisicing officia qui
           irure id sint adipisicing. Adipisicing fugiat aliqua nulla nostrud.
@@ -79,7 +79,7 @@ const dummyContent = [
     title: "Lorem Ipsum Dolor Sit Amet",
     description: (
       <>
-        <p>
+        <p className="text-white">
           Ex irure dolore veniam ex velit non aute nisi labore ipsum occaecat
           deserunt cupidatat aute. Enim cillum dolor et nulla sunt exercitation
           non voluptate qui aliquip esse tempor. Ullamco ut sunt consectetur
@@ -87,7 +87,7 @@ const dummyContent = [
           velit id esse adipisicing deserunt amet dolore. Ipsum occaecat veniam
           commodo proident aliqua id ad deserunt dolor aliquip duis veniam sunt.
         </p>
-        <p>
+        <p className="text-white">
           In dolore veniam excepteur eu est et sunt velit. Ipsum sint esse
           veniam fugiat esse qui sint ad sunt reprehenderit do qui proident
           reprehenderit. Laborum exercitation aliqua reprehenderit ea sint
@@ -103,7 +103,7 @@ const dummyContent = [
     title: "Lorem Ipsum Dolor Sit Amet",
     description: (
       <>
-        <p>
+        <p className="text-white">
           Ex irure dolore veniam ex velit non aute nisi labore ipsum occaecat
           deserunt cupidatat aute. Enim cillum dolor et nulla sunt exercitation
           non voluptate qui aliquip esse tempor. Ullamco ut sunt consectetur
