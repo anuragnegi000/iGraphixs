@@ -37,7 +37,7 @@ export default function Home() {
       {/* <Group /> */}
       <TracingBeamDemo/>
       <StickyScrollRevealDemo/>
-      <InfiniteMovingCardsDemo/>
+      {/* <InfiniteMovingCardsDemo/>   */}
       <CardHoverEffectDemo/>
       {/* <SVGMaskEffectDemo/> */}
       <BentoGridThirdDemo/>
