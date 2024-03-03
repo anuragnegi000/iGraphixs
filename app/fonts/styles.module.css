@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Cal Sans SemiBold";
+    src: url("https://db.onlinewebfonts.com/t/ea46d0b48797069c0d1d092a40988da0.eot");
+    src: url("https://db.onlinewebfonts.com/t/ea46d0b48797069c0d1d092a40988da0.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/ea46d0b48797069c0d1d092a40988da0.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/ea46d0b48797069c0d1d092a40988da0.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/ea46d0b48797069c0d1d092a40988da0.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/ea46d0b48797069c0d1d092a40988da0.svg#Cal Sans SemiBold")format("svg");
+}

@@ -12,7 +12,7 @@ export default function Intro() {
     return (
         <section className='mb-28 max--w-[50rem] text-center sm:mb-0'>
            
-           <TypewriterEffectSmoothDemo/>
+         
            
 
             <motion.div className='flex flex-col items-center justify-center gap-2 px-4 text-lg font-medium sm:flex-row'

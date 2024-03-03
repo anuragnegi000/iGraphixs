@@ -9,14 +9,14 @@ export function TypewriterEffectSmoothDemo() {
       text: "awesome",
     },
     {
-      text: "apps",
+      text: "Designs",
     },
     {
       text: "with",
     },
     {
-      text: "Aceternity.",
-      className: "text-blue-500 dark:text-blue-500",
+      text: "iGraphix.",
+      className: "text-red-500 dark:text-black-500 text-50xl",
     },
   ];
   return (

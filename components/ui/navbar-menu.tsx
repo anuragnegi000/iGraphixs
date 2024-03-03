@@ -21,7 +21,7 @@ export const MenuItem = ({
 }: {
   setActive: (item: string) => void;
   active: string | null;
-  item: string;
+  item:  string;
   children?: React.ReactNode;
 }) => {
   return (
@@ -82,11 +82,13 @@ export const ProductItem = ({
   description,
   href,
   src,
+ 
 }: {
   title: string;
   description: string;
   href: string;
   src: string;
+
 }) => {
   return (
     <Link href={href} className="flex space-x-2">
