@@ -18,6 +18,7 @@ import { SVGMaskEffectDemo } from '@/components/experiment/SvgMask'
 import { WavyBackgroundDemo } from '@/components/experiment/WaveyBgm'
 import {InfiniteMovingCardsDemo} from '@/components/infiniteMovingCard'
 import { HeroScrollDemo } from '@/components/experiment/ContainerScroll'
+import {BentoGridThirdDemo} from '@/components/bentoGrid'
 
 
 export default function Home() {
@@ -38,7 +39,8 @@ export default function Home() {
       <StickyScrollRevealDemo/>
       <InfiniteMovingCardsDemo/>
       <CardHoverEffectDemo/>
-      <SVGMaskEffectDemo/>
+      {/* <SVGMaskEffectDemo/> */}
+      <BentoGridThirdDemo/>
       
       
      

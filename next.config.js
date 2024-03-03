@@ -3,6 +3,7 @@
 const nextConfig = {
     images: {
       domains: ['assets.aceternity.com'],
+      domains: ['pbs.twimg.com'],
       remotePatterns: [
         {
           protocol: 'https',
