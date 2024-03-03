@@ -11,6 +11,11 @@ import Image from 'next/image'
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect'
 
 import Group from '@/components/group'
+import { StickyScrollRevealDemo } from '@/components/ImageSlider'
+import { CardHoverEffectDemo } from '@/components/experiment/CardHover'
+import { TracingBeamDemo } from '@/components/experiment/TracingBeam'
+import { SVGMaskEffectDemo } from '@/components/experiment/SvgMask'
+import { WavyBackgroundDemo } from '@/components/experiment/WaveyBgm'
 
 
 export default function Home() {
@@ -18,11 +23,17 @@ export default function Home() {
     <main className="flex flex-col items-center justify-between min-h-screen p-24">
 
 
-      <Intro />
+      {/* <Intro /> */}
+      <WavyBackgroundDemo/>
 
       <SectionDivider />
-      <About />
-      <Group />
+      <About />   {/* chnage the font color from black to white  */}
+      {/* <Group /> */}
+      <TracingBeamDemo/>
+      <StickyScrollRevealDemo/>
+      <CardHoverEffectDemo/>
+      <SVGMaskEffectDemo/>
+      
       
      
 
