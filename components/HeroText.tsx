@@ -27,10 +27,10 @@ export function TypewriterEffectSmoothDemo() {
       <TypewriterEffectSmooth words={words} />
       <div className="flex flex-col space-x-0 space-y-4 md:flex-row md:space-y-0 md:space-x-4">
         <button className="w-40 h-10 text-sm text-white bg-black border border-transparent rounded-xl dark:border-white">
-          Join now
+          Contact us
         </button>
         <button className="w-40 h-10 text-sm text-black bg-white border border-black rounded-xl">
-          Signup
+          Our works
         </button>
       </div>
     </div>

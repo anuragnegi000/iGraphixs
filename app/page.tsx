@@ -16,6 +16,7 @@ import { CardHoverEffectDemo } from '@/components/experiment/CardHover'
 import { TracingBeamDemo } from '@/components/experiment/TracingBeam'
 import { SVGMaskEffectDemo } from '@/components/experiment/SvgMask'
 import { WavyBackgroundDemo } from '@/components/experiment/WaveyBgm'
+import {InfiniteMovingCardsDemo} from '@/components/infiniteMovingCard'
 import { HeroScrollDemo } from '@/components/experiment/ContainerScroll'
 
 
@@ -35,6 +36,7 @@ export default function Home() {
       {/* <Group /> */}
       <TracingBeamDemo/>
       <StickyScrollRevealDemo/>
+      <InfiniteMovingCardsDemo/>
       <CardHoverEffectDemo/>
       <SVGMaskEffectDemo/>
       

@@ -7,15 +7,18 @@ export function SVGMaskEffectDemo() {
       <MaskContainer
         revealText={
           <p className="max-w-4xl mx-auto text-4xl font-bold text-center text-slate-800">
-            The first rule of MRR Club is you do not talk about MRR Club. The
-            second rule of MRR Club is you DO NOT talk about MRR Club.
+            iGraphixs stands as a pioneering force in the realms of marketing, graphic effects (gfx), and visual effects (vfx). With a commitment to excellence and innovation.
+
+
+
+
+
           </p>
         }
         className="h-[40rem] border rounded-md"
       >
-        The first rule of <span className="text-red-500">MRR Club</span> is you
-        do not talk about MRR Club. The second rule of MRR Club is you DO NOT
-        talk about <span className="text-red-500">MRR Club</span>.
+        iGraphixs stands as a pioneering force in the realms <span className="text-red-500">iGraphixs</span>  graphic effects (gfx), and visual effects (vfx).
+        With a commitment to excellence <span className="text-red-500">iGraphixs</span>.
       </MaskContainer>
     </div>
   );
